@@ -84,11 +84,13 @@ A virtual companion reinforces healthy decisions through the message:
 | Keep the idea of event searching | Allow users who are more keen to relax themselves by going outside doing activities that they enjoy. This shortened the time users use when searching for events that suits them across different platform. |
 | User level | Encourage users to keep themselves happy by rewarding them with different type of animal every time they hit a new level. |
 | Discard the idea of giving separate progression bar for Load, Daily Stress, Care XP, and Pet Happiness | Too much different progressions can cause the userss to get frustrated on how the app works causing the user to be more upset using the app rather than more relaxed. |
+| Discard the idea to add streak to the app | Prevent users from overly stressing with the burden of keeping the streak alive. The loss of the streak might cause the user to be overly frustrated and causing users to give up on keeping the streak alive. |
 
 ## 2.2 Ideation Boards
 
 ![Mindmap](mindmap.jpeg)
 ![Flowchart](flowchart.jpeg)
+
 
 ## 2.3 Mentor Consultation
 
@@ -114,8 +116,31 @@ UI Prototype: [link]
 
 ## Tech stack
 
+| Component | Technology | Why We Chose It | Expected Constraints |
+|-----------|------------|-----------------|----------------------|
+| Frontend | React Native + Expo | Allows us to build a cross-platform mobile application using a single codebase. Expo simplifies development, testing, and deployment, which is suitable for a short hackathon development period. | Some advanced native features may require additional configuration or platform-specific testing. |
+| Programming Language | TypeScript | Provides stronger type checking than JavaScript and allows the frontend and backend logic to use the same language, making the codebase easier to maintain. | Requires slightly more setup and type management compared with plain JavaScript |
+| Backend | Firebase Cloud Functions | Handles server-side logic such as workload calculations, event processing, recommendation generation, and secure communication with external APIs without requiring us to manage our own server. | Usage is subject to quotas, and some deployment features may require billing configuration. |
+| Database | Cloud Firestore | Stores user profiles, commitments, daily check-ins, workload scores, event information, recommendations, and virtual companion progress. It integrates directly with the rest of Firebase. | Read/write operations are quota-based, so database queries must be designed efficiently. |
+| Authentication | Firebase Authentication | Provides secure login and user account management without requiring us to build an authentication system from scratch. | Certain logic providers may require additional configuration and may have usage limits. |
+| Event Data | EventBrite API + manually curated local events | Eventbrite can provide public event information, while local events that are not available through externa platforms can be manually added to the database by the Kinkou team. | Eventbrite coverage may not include smaller or local events. External APIs are also subject to availability, access policies, and rate limits. |
+| Maps & Location | Google Maps Platform | Helps users understand where activities are located and can support location-based event discovery and distance relevance. | Requires API configuration, user permission for location features, and usage is subject to quotas and billing limits. |
+| Recommendation Logic | Rule-based Demand Benefit algorithm | Allows Kinkou to evaluate whether an activity is suitable based on the user's current workload, energy, engagement, and the activity's expected demand and benefit. This keeps the core system predictable and independent of generative AI. | Rules must be carefully designed and tested to avoid overly simplistic recommendations. Personalisation will initially be limited compared with more advanced adaptive systems. |
+| Cloud / Hosting | Firebase + Google Cloud | Provides the infrastructure for authentication, database storage, backend functions, and related cloud services in one integrated ecosystem. | Free-tier quotas apply, and certain services may require a billing account. |
+| Version Control | Git + GitHub | Supports team collaboration, version history, branching, and code review. | Poor branch management may cause merge conflicts during development. |
+| UI/UX | Figma | Allows the team to design and test the user interface collaboratively before implementation. | The final implementation may differ slightly from the prototype due to technical or time constraints. |
+| Development Environment | VS Code | Lightweight development environment with strong support for React Native, Expo, Firebase, and TypeScript. | Requires local development setup and dependency management. |
 
+## Build plan & scope
 
+During the building phase, we will focus on a functional MVP of Kinkou containing its core workload-management experience.
+
+| Priority | MVP Scope |
+|----------|-----------|
+| Core | Commitment tracking, five load dimensions, daily energy/engagement check-ins |
+| Decision Support | Demand-Benefit assessment, Commitment Check, and rule-based rebalancing recommendations |
+| Explore | Small set of API-sourced and manually curated local activities, with basic location support |
+| Engagement | Simple virtual companion progression based on healthy decisions and self-care |
 
 
 
