@@ -81,9 +81,9 @@ A virtual companion reinforces healthy decisions through the message:
 
 | Idea | Why it was dropped / kept |
 |------|---------------------------|
-| Keep the idea of event searching | Allow users who are more keen to relax themselves by going outside doing activities that they enjoy. This shortened the time user use when searching for events that suits them across different platform |
+| Keep the idea of event searching | Allow users who are more keen to relax themselves by going outside doing activities that they enjoy. This shortened the time users use when searching for events that suits them across different platform. |
 | User level | Encourage users to keep themselves happy by rewarding them with different type of animal every time they hit a new level. |
-| Discard the idea of giving separate progression bar for Load, Daily Stress, Care XP, and Pet Happiness | Too much different progression can cause the user to get frustrated on how the app works causing the user to be more upset using the app rather than more relax |
+| Discard the idea of giving separate progression bar for Load, Daily Stress, Care XP, and Pet Happiness | Too much different progressions can cause the userss to get frustrated on how the app works causing the user to be more upset using the app rather than more relaxed. |
 
 ## 2.2 Ideation Boards
 
@@ -94,20 +94,20 @@ A virtual companion reinforces healthy decisions through the message:
 
 | Date | Mentor | Feedback Received | What Was Changed |
 |------|--------|-------------------|------------------|
-| 7 September | Faris Imran | Mentor said he loves the design and the use of pixel art for the app. The pet and event searching could be a unique selling point. In order to prevent from the event searching from overpowering the app and going off track from the problem statement, we should know how to frame the app appropriately. | We changed the initial name from EventFlow to Kinkou: a Japanese word carrying the meaning of "balance", highlighting that our app is for users to find the balance in their life. |
+| 7 September | Faris Imran | Mr. Faris said he loves the design and the use of pixel art for the app. The pet and event searching could be unique selling points. In order to prevent the event searching from overpowering the app and going off track from the problem statement, we should know how to frame the app appropriately. | We changed the initial name from EventFlow to Kinkou: a Japanese word carrying the meaning of "balance", highlighting that our app is for users to find the balance in their life. |
 
 # 3. Design & Prototype
 
-UI Prototype: 
+UI Prototype: [link]
 
 # 4. What Makes It Different
 
 | Novel Feature | What Makes It Different |
 |---------------|-------------------------|
-| Demand + Benefit Assessment | Balance does not assume every demanding activity is harmful. It considers both what an activity takes (time, mental, physical, social, and life load) and what it gives back (enjoyment, meaning, connection, and growth). |
-| "Make Room" Recommendation | Instead of simply telling an overwhelmed student to avoid a meaningful activity, Balance helps them identify lower-value commitments that could be postponed, reduced, or replaced to make room for what matters. |
+| Demand + Benefit Assessment | Kinkou does not assume every demanding activity is harmful. It considers both what an activity takes (time, mental, physical, social, and life load) and what it gives back (enjoyment, meaning, connection, and growth). |
+| "Make Room" Recommendation | Instead of simply telling an overwhelmed student to avoid a meaningful activity, Kinkou helps them identify lower-value commitments that could be postponed, reduced, or replaced to make room for what matters. |
 | Context-Aware Opportunity Discovery | Unlike a conventional event platform, opportunities are recommended based not only on interests or location, but also on the student's current load and needs. An overwhelmed student may receive low-demand activities, while an under-engaged student may receive meaningful opportunities for growth or connection. |
-| Burnout + Under-engagement Support | A low workload is not automatically treated as good. Balance combines workload with energy and engagement signals to recognise when a student may be overloaded or lacking meaningful engagement. |
+| Burnout + Under-engagement Support | A low workload is not automatically treated as good. Kinkou combines workload with energy and engagement signals to recognise when a student may be overloaded or lacking meaningful engagement. |
 | Self-Care Companion, Not Productivity Pet | The virtual companion thrives through sustainable decisions—resting, rebalancing commitments, and maintaining meaningful engagement—rather than simply rewarding users for completing more tasks. |
 
 # 5. Technical Architecture & Feasibility
