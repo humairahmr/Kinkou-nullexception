@@ -35,7 +35,7 @@ They need one that also asks:
 
 ## The Stakeholders
 
-The stakeholders we have identified are students or individuals who either taking too much which could lead to a *burnout* or not taking anything at all which could lead to a *boreout*.
+The stakeholders we have identified are students or individuals who are either doing too much which could lead to a *burnout* or not doing anything at all which could lead to a *boreout*.
 
 ## Similar Apps
 
@@ -74,4 +74,15 @@ A virtual companion reinforces healthy decisions through the message:
 - Rebalancing and recovery recommendations
 - Context-aware Explore recommendations
 - Virtual companion progression
+
+# 2. Ideation & Process
+
+## 2.1 Ideas We Considered
+
+| Idea | Why it was dropped / kept |
+|------|---------------------------|
+| Keep the idea of event searching | Allow users who are more keen to relax themselves by going outside doing activities that they enjoy. This shortened the time user use when searching for events that suits them across different platform |
+| User level | Encourage users to keep themselves happy by rewarding them with different type of animal every time they hit a new level. |
+| Discard the idea of giving separate progression bar for Load, Daily Stress, Care XP, and Pet Happiness | Too much different progression can cause the user to get frustrated on how the app works causing the user to be more upset using the app rather than more relax |
+
 
