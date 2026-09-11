@@ -85,4 +85,11 @@ A virtual companion reinforces healthy decisions through the message:
 | User level | Encourage users to keep themselves happy by rewarding them with different type of animal every time they hit a new level. |
 | Discard the idea of giving separate progression bar for Load, Daily Stress, Care XP, and Pet Happiness | Too much different progression can cause the user to get frustrated on how the app works causing the user to be more upset using the app rather than more relax |
 
+## 2.2 Ideation Boards
+
+![Flowchart](flowchart.jpeg)
+
+
+
+
 
