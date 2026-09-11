@@ -33,6 +33,20 @@ Students therefore need more than a system that asks:
 They need one that also asks:
 "Is what you're doing worth your energy?"
 
+## The Stakeholders
+
+The stakeholders we have identified are students or individuals who either taking too much which could lead to a *burnout* or not taking anything at all which could lead to a *boreout*.
+
+## Similar Apps
+
+| Similar Apps | App's concept | Shortcoming |
+|:----------:|:------------:|:----------:|
+| Quabble, Finch |Share similar concepts, allow users to customize their pets and focus on the user's mental health. Both take different approaches to mental wellness. 
+
+Quabble - focus on guiding users toward calmness
+Finch - emphasizes on adding coping activities in the user’s schedule | Addressing only one side of the coin, users need guidance on staying calm and practical tools to schedule positive routines simultaneously. |
+| Eventbrite | Provides event information based on user’s current location | Forces users to manually cross-reference dates to prevent schedule clashes. 
+Fails to indicate event intensity, leaving users to gamble on whether they have the mental bandwidth for high-energy activities | 
 
 ## Our Solution
 
@@ -64,3 +78,4 @@ A virtual companion reinforces healthy decisions through the message:
 - Rebalancing and recovery recommendations
 - Context-aware Explore recommendations
 - Virtual companion progression
+
