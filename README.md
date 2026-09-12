@@ -6,7 +6,7 @@
 
 **Video Presentation:** [YouTube Link]
 
-**Presentation Slides:** [Public Link]
+**Presentation Slides:** (https://canva.link/kinkou-by-nullexception)
 
 **UI Prototype:** [Public Link]
 
