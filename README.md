@@ -90,7 +90,13 @@ A virtual companion reinforces healthy decisions through the message:
 
 ![Mindmap](mindmap.jpeg)
 ![Flowchart](flowchart.jpeg)
-
+![Ideationboard](satu.jpeg)
+![Ideationboard](dua.jpeg)
+![Ideationboard](tiga.jpeg)
+![Ideationboard](empat.jpeg)
+![Ideationboard](lima.jpeg)
+![Ideationboard](enam.jpeg)
+![Ideationboard](tujuh.jpeg)
 
 ## 2.3 Mentor Consultation
 
