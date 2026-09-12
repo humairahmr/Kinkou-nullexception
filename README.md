@@ -8,7 +8,7 @@
 
 **Presentation Slides:** (https://canva.link/kinkou-by-nullexception)
 
-**UI Prototype:** [Public Link]
+**UI Prototype:** (https://www.figma.com/design/vo9gXrFRXJvKeNjdwwm52U/Kinkou-by-nullexecption?node-id=0-1&t=iaTl9xQpsWd1RKtf-1)
 
 
 # 1. Project Overview
@@ -81,10 +81,14 @@ A virtual companion reinforces healthy decisions through the message:
 
 | Idea | Why it was dropped / kept |
 |------|---------------------------|
-| Keep the idea of event searching | Allow users who are more keen to relax themselves by going outside doing activities that they enjoy. This shortened the time users use when searching for events that suits them across different platform. |
-| User level | Encourage users to keep themselves happy by rewarding them with different type of animal every time they hit a new level. |
-| Discard the idea of giving separate progression bar for Load, Daily Stress, Care XP, and Pet Happiness | Too much different progressions can cause the userss to get frustrated on how the app works causing the user to be more upset using the app rather than more relaxed. |
-| Discard the idea to add streak to the app | Prevent users from overly stressing with the burden of keeping the streak alive. The loss of the streak might cause the user to be overly frustrated and causing users to give up on keeping the streak alive. |
+| **Keep** the idea of event searching | Allow users who are more keen to relax themselves by going outside doing activities that they enjoy. This shortened the time users use when searching for events that suits them across different platform. |
+| **Keep** Recovery plan | Giving users ways to recover themselves daily and immediately putting the plan into their recovery plan. Users can also customize their recovery plan to give freedom to users on how they want to spend their time. |
+| **Keep** user's daily word of affirmation | Giving users different daily words of affirmation based on the user's condition to give encouragement to the user. This can give users a positive effect on their stress levels by promoting a healthier mental outlook. |
+| **Keep** Calendar Conflict Detection | The system automatically cross-checks event dates and times against the user's personal calendar, allowing users to instantly identify scheduling conflicts before joining an event. |
+| **Keep** Pet (User's Companion) | The pet helps users to reflect on their current condition which is happy, normal, sad, and depressed. This helps because sometimes the users might be overloading themselves with activities without the realizing the tolls on their current physical and mental state. |
+| **Keep** User level | Encourage users to keep themselves happy by rewarding them with different type of animal every time they hit a new level. |
+| **Discard** the idea of giving separate progression bar for Load, Daily Stress, Care XP, and Pet Happiness | Too much different progressions can cause the userss to get frustrated on how the app works causing the user to be more upset using the app rather than more relaxed. |
+| **Discard** the idea to add streak to the app | Prevent users from overly stressing with the burden of keeping the streak alive. The loss of the streak might cause the user to be overly frustrated and causing users to give up on keeping the streak alive. |
 
 ## 2.2 Ideation Boards
 
