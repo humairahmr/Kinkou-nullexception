@@ -8,9 +8,6 @@
 
 **Presentation Slides:** (https://canva.link/kinkou-by-nullexception)
 
-**UI Prototype:** (https://www.figma.com/design/vo9gXrFRXJvKeNjdwwm52U/Kinkou-by-nullexecption?node-id=0-1&t=iaTl9xQpsWd1RKtf-1)
-
-
 # 1. Project Overview
 
 ## The Problem
@@ -35,7 +32,13 @@ They need one that also asks:
 
 ## The Stakeholders
 
-The stakeholders we have identified are students or individuals who are either doing too much which could lead to a *burnout* or not doing anything at all which could lead to a *boreout*.
+**Primary stakeholders**: Students and young individuals who may experience *burnout* from excessive commitments or *boreout* from a lack of meaningful engagement.
+
+- These individuals need practical support to understand their current workload, evaluate new commitments, and make informed decisions about rest, recovery, and meaningful activities.
+
+**Secondary stakeholders**: Student organisations, activity organisers, universities, and student support services.
+
+- These groups may provide activities, promote student well-being, or benefit from improved student engagement and participation.
 
 ## Similar Apps
 
@@ -81,19 +84,25 @@ A virtual companion reinforces healthy decisions through the message:
 
 | Idea | Why it was dropped / kept |
 |------|---------------------------|
-| **Keep** the idea of event searching | Allow users who are more keen to relax themselves by going outside doing activities that they enjoy. This shortened the time users use when searching for events that suits them across different platform. |
-| **Keep** Recovery plan | Giving users ways to recover themselves daily and immediately putting the plan into their recovery plan. Users can also customize their recovery plan to give freedom to users on how they want to spend their time. |
-| **Keep** user's daily word of affirmation | Giving users different daily words of affirmation based on the user's condition to give encouragement to the user. This can give users a positive effect on their stress levels by promoting a healthier mental outlook. |
-| **Keep** Calendar Conflict Detection | The system automatically cross-checks event dates and times against the user's personal calendar, allowing users to instantly identify scheduling conflicts before joining an event. |
-| **Keep** Pet (User's Companion) | The pet helps users to reflect on their current condition which is happy, normal, sad, and depressed. This helps because sometimes the users might be overloading themselves with activities without the realizing the tolls on their current physical and mental state. |
-| **Keep** User level | Encourage users to keep themselves happy by rewarding them with different type of animal every time they hit a new level. |
-| **Discard** the idea of giving separate progression bar for Load, Daily Stress, Care XP, and Pet Happiness | Too much different progressions can cause the userss to get frustrated on how the app works causing the user to be more upset using the app rather than more relaxed. |
-| **Discard** the idea to add streak to the app | Prevent users from overly stressing with the burden of keeping the streak alive. The loss of the streak might cause the user to be overly frustrated and causing users to give up on keeping the streak alive. |
+| **Kept** the idea of event searching | Allow users who are more keen to relax themselves by going outside doing activities that they enjoy. This shortened the time users use when searching for events that suits them across different platform. |
+| **Kept** Recovery plan | Giving users ways to recover themselves daily and immediately putting the plan into their recovery plan. Users can also customize their recovery plan to give freedom to users on how they want to spend their time. |
+| **Kept** user's daily word of affirmation | Giving users different daily words of affirmation based on the user's condition to give encouragement to the user. This can give users a positive effect on their stress levels by promoting a healthier mental outlook. |
+| **Kept** Calendar Conflict Detection | The system automatically cross-checks event dates and times against the user's personal calendar, allowing users to instantly identify scheduling conflicts before joining an event. |
+| **Kept** Pet (User's Companion) | The pet helps users to reflect on their current condition which is happy, normal, sad, and depressed. This helps because sometimes the users might be overloading themselves with activities without the realizing the tolls on their current physical and mental state. |
+| **Kept** User level | Encourage users to keep themselves happy by rewarding them with different type of animal every time they hit a new level. |
+| **Discarded** the idea of giving separate progression bar for Load, Daily Stress, Care XP, and Pet Happiness | Too much different progressions can cause the userss to get frustrated on how the app works causing the user to be more upset using the app rather than more relaxed. |
+| **Discarded** the idea to add streak to the app | Prevent users from overly stressing with the burden of keeping the streak alive. The loss of the streak might cause the user to be overly frustrated and causing users to give up on keeping the streak alive. |
 
 ## 2.2 Ideation Boards
 
 ![Mindmap](mindmap.jpeg)
+Figure 1: Mindmap
+
+*This mindmap features the core ideas of our app functions and design before we decide on the ideas to keep, discard, or expand.*
 ![Flowchart](flowchart.jpeg)
+Figure 2: Flowchart
+
+*Our flowchart shows the intended user journey in Kinkou: students understand their current workload, evaluate new commitments, receive recommendations to rebalance their time and energy, and discover activities that support recovery or meaningful engagement.*
 ![Ideationboard](satu.jpeg)
 ![Ideationboard](dua.jpeg)
 ![Ideationboard](tiga.jpeg)
@@ -101,6 +110,9 @@ A virtual companion reinforces healthy decisions through the message:
 ![Ideationboard](lima.jpeg)
 ![Ideationboard](enam.jpeg)
 ![Ideationboard](tujuh.jpeg)
+Figure 3: Lo-fi wireframes
+
+*These lo-fi wireframes show how our interface evolved through multiple iterations. We experimented with multiple layouts, information hierarchies, and user flows before refining the design around the core problem of workload balance.*
 
 ## 2.3 Mentor Consultation
 
@@ -110,7 +122,7 @@ A virtual companion reinforces healthy decisions through the message:
 
 # 3. Design & Prototype
 
-UI Prototype: [link]
+UI Prototype: (https://www.figma.com/design/vo9gXrFRXJvKeNjdwwm52U/Kinkou-by-nullexecption?node-id=0-1&t=iaTl9xQpsWd1RKtf-1)
 
 # 4. What Makes It Different
 
@@ -120,7 +132,7 @@ UI Prototype: [link]
 | "Make Room" Recommendation | Instead of simply telling an overwhelmed student to avoid a meaningful activity, Kinkou helps them identify lower-value commitments that could be postponed, reduced, or replaced to make room for what matters. |
 | Context-Aware Opportunity Discovery | Unlike a conventional event platform, opportunities are recommended based not only on interests or location, but also on the student's current load and needs. An overwhelmed student may receive low-demand activities, while an under-engaged student may receive meaningful opportunities for growth or connection. |
 | Burnout + Under-engagement Support | A low workload is not automatically treated as good. Kinkou combines workload with energy and engagement signals to recognise when a student may be overloaded or lacking meaningful engagement. |
-| Self-Care Companion, Not Productivity Pet | The virtual companion thrives through sustainable decisions—resting, rebalancing commitments, and maintaining meaningful engagement—rather than simply rewarding users for completing more tasks. |
+| Self-Care Companion, Not Productivity Pet | The virtual companion thrives through sustainable decisions such as resting, rebalancing commitments, and maintaining meaningful engagement rather than simply rewarding users for completing more tasks. |
 
 # 5. Technical Architecture & Feasibility
 
@@ -145,12 +157,12 @@ UI Prototype: [link]
 
 During the building phase, we will focus on a functional MVP of Kinkou containing its core workload-management experience.
 
-| Priority | MVP Scope |
-|----------|-----------|
-| Core | Commitment tracking, five load dimensions, daily energy/engagement check-ins |
-| Decision Support | Demand-Benefit assessment, Commitment Check, and rule-based rebalancing recommendations |
-| Explore | Small set of API-sourced and manually curated local activities, with basic location support |
-| Engagement | Simple virtual companion progression based on healthy decisions and self-care |
+| Priority | MVP Scope | Technical Execution |
+|----------|-----------|---------------------|
+| Core | Commitment tracking, five load dimensions, daily energy/engagement check-ins | Fast manual entry schema tracking 5 load vectors (Time, Mental, Physical, Social, Admin) + dual-signal daily prompt. |
+| Decision Support | Demand-Benefit assessment, Commitment Check, and rule-based rebalancing recommendations | Heuristic decision engine that weighs cost vs. value to output actionable trade-offs (Make Room, Delegate, Drop) |
+| Explore | Small set of API-sourced and manually curated local activities, with basic location support | Seeded catalog tagged by demand/impact, dynamically filtered based on current user load state. |
+| Engagement | Simple virtual companion progression based on healthy decisions and self-care | Lightweight client-side state machine (FSM) updating visual avatar states in real time. |
 
 
 
